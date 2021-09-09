@@ -8,14 +8,22 @@
 
 body {
 	background-color: #333;
+	font-family: 'Azeret Mono', monospace;
 }
 
 section {
 	height: 100vh;
 	width: 100%;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.loadingProgressPercentage h3 {
+	color: #ffff;
+	font-size: 2.5em;
+	margin-bottom: 2rem;
 }
 
 .loadingBarWrapper {
@@ -31,6 +39,5 @@ section {
 	top: 0;
 	left: 0;
 	height: 100%;
-	width: 10%;
 	background-color: lightgreen;
 }
